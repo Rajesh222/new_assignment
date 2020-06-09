@@ -1,0 +1,54 @@
+.my-nav-bar {
+  #brand-name {
+    font-size: x-large;
+    color: #fff;
+    background-color: #82cf8f;
+    border-radius: 50%;
+    width: 48px;
+    padding-left: 14px;
+    font-weight: 500;
+  }
+  .header-link {
+    color: black;
+    font-weight: 400;
+  }
+
+  .chat {
+    display: block;
+    margin: 20px;
+  }
+
+  .form-inline {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .user-details {
+    .user {
+      display: flex;
+      margin: auto 20px;
+      border-radius: 5px;
+      .your-list {
+        margin: auto 10px;
+      }
+      .count {
+        width: 25px;
+        height: 25px;
+        background-color: #82cf8f;
+        border-radius: 50%;
+        padding-left: 8px;
+        color: #fff;
+        font-weight: 600;
+      }
+    }
+
+    @media screen and (min-width: 992px) {
+      display: flex;
+      margin-left: auto;
+    }
+  }
+  .search-header {
+    border: 0;
+    background-color: #f8f9fa;
+  }
+}

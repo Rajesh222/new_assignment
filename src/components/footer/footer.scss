@@ -1,0 +1,29 @@
+.footer-classic {
+  background-color: #fff;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  min-height: 300px;
+  width: 100%;
+  overflow: hidden;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+#footer-brand-name {
+  font-size: x-large;
+  color: #fff;
+  background-color: #82cf8f;
+  border-radius: 50%;
+  width: 49px;
+  padding-left: 8px;
+  font-weight: 500;
+  padding-right: 8px;
+}
+.name {
+  margin-left: 25px;
+}
+.footer-nav-list {
+  list-style: none;
+  padding-inline-start: 0;
+}
